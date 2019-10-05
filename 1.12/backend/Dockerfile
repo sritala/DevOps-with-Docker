@@ -1,3 +1,5 @@
+FROM ubuntu:16.04
+
 WORKDIR /mydir
 EXPOSE 8000
 RUN apt-get update && apt-get install -y curl git
